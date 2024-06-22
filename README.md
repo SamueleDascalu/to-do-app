@@ -8,14 +8,14 @@ Functionalities:
 
 Colors:
 
-*light mode:
+* light mode:
 
   - base (gray): #EEEEEE
   - azure: #76ABAE
   - light black: #31363F
   - black: #222831
 
-*dark mode:
+* dark mode:
 
   - gray: #EEEEEE
   - azure: #76ABAE
