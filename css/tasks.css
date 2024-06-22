@@ -1,0 +1,42 @@
+.task-container{
+  display: flex;
+  align-items: center;
+  width: 90%;
+  padding: 1rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border: 2px solid var(--clr-secondary);
+  border-radius: 5px;
+}
+
+.fa-circle{
+  margin-right: 1rem;
+  color: var(--main-text);
+  cursor: pointer;
+}
+
+.fa-circle-check{
+  margin-right: 1rem;
+  color: var(--main-text);
+  cursor: pointer;
+}
+
+.task-paragraph{
+  color: var(--main-text);
+  word-break: break-all;
+  margin-right: .7rem;
+}
+
+.task-paragraph-checked{
+  text-decoration: line-through;
+  color: var(--main-text);
+  word-break: break-all;
+  margin-right: .7rem;
+}
+
+.remove{
+  font-size: 200%;
+  cursor: pointer;
+  margin-left: auto;
+  color: var(--main-text);
+}

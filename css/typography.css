@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+html{
+  font-family: "Roboto", sans-serif;
+}
+
+p, i, label, button, span{
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}

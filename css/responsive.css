@@ -1,0 +1,11 @@
+@media(max-width: 480px) {
+  form input{
+    width: 17rem;
+  }  
+}
+
+@media(min-width: 1000px) {
+  .task-container{
+    width: 80%;
+  }
+}

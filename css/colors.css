@@ -1,0 +1,23 @@
+:root{
+  --clr-base: #EEEEEE;
+  --clr-accent: #76ABAE;
+  --clr-primary: #31363F;
+  --clr-secondary: #222831;
+
+  --main-text: var(--clr-secondary);
+  --text-secondary: #EEEEEE;
+
+  --clr-accent-hover: #80b7ba;
+  --background: var(--clr-base);
+}
+
+.darkmode{
+  --clr-base: #31363F;
+  --clr-accent: #76ABAE;
+  --clr-primary: #222831;
+  --clr-secondary: #EEEEEE;
+
+  --main-text: var(--clr-secondary);
+
+  --background: var(--clr-base);
+}

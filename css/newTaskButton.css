@@ -1,0 +1,32 @@
+main{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#add-button-container{
+  position: sticky;
+  top: 4.7rem;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  background-color: var(--background);
+}
+
+#add-button{
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: var(--clr-accent);
+  border: none;
+  border-radius: 5px;
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+#add-button:hover{
+  background-color: var(--clr-accent-hover);
+}
+
+#add-button i{
+  margin-right: .5rem;
+}

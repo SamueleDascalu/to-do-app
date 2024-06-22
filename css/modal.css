@@ -1,0 +1,56 @@
+dialog{
+  padding: 2rem;
+  border-radius: 5px;
+  border: 2px solid var(--clr-secondary);
+  margin: auto;
+  background-color: var(--background);
+}
+
+dialog::backdrop{
+  background-color: rgb(0,0,0,.5);
+}
+
+#modal-heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  color: var(--main-text);
+}
+
+#close-modal{
+  background-color: unset;
+  border: none;
+  cursor: pointer;
+}
+
+#times{
+  font-size: 200%;
+  color: var(--main-text);
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  color: var(--main-text);
+}
+
+form input{
+  padding: 1rem;
+  margin-top: 1rem;
+  width: 25rem;
+}
+
+#submit-button{
+  margin-top: 3rem;
+  padding: 1rem 2.5rem;
+  background-color: var(--clr-accent);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: var(--text-secondary);
+}
+
+#submit-button:hover{
+  background-color: var(--clr-accent-hover);
+}
