@@ -1,5 +1,7 @@
 # TODO APP
 
+A simple vanilla JS todo app with LocalStorage persistence.
+
 Functionalities:
   - light/dark mode
   - add new task
